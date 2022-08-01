@@ -1,0 +1,122 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.inputForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.loginContainer {
+  align-items: center;
+  background-color: whitesmoke;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 250px;
+}
+
+.details-page {
+  color: #464646;
+  margin: 60px auto;
+  width: 90vw;
+}
+
+.buttons {
+  background-color: #1c1d1c;
+  color: #f1ecec;
+  margin: 5px;
+  padding: 10px;
+}
+
+.recomendation-card {
+  display: flex;
+  margin: 10px 5px;
+  overflow-x: scroll;
+}
+
+.recomendation-card > button {
+  margin-right: 5px;
+}
+
+.recomendation-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin: 3px;
+  width: 170px;
+}
+
+.recipe-card-title {
+  background-color: white;
+  color: #1c1d1c;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.recipe-card img {
+  border-radius: 0.6rem;
+  height: 90%;
+  object-fit: fill;
+  width: 170px;
+}
+
+.start-recipe-btn {
+  background-color: #791515;
+  bottom: 0;
+  color: #f1ecec;
+  margin: 0;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+.receitas-btn {
+  background-color: #791515;
+  color: #f1ecec;
+  margin: 5px;
+  padding: 15px;
+}
+
+.component-render-itens {
+  align-items: center;
+  background-color: #f3efef;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+.inProgressRecipes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 10px;
+  text-align: center;
+}
+
+.recipe-category {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
